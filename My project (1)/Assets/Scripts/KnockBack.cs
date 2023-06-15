@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KnockBack : MonoBehaviour
 {
-    private float knockbackStrength = 50.0f;
+    public float knockbackStrength = 50.0f;
     private void OnCollisionEnter(Collision collision)
     {
         Rigidbody rb = collision.collider.GetComponent<Rigidbody>();

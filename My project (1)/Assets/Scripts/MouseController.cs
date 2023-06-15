@@ -12,7 +12,10 @@ public class MouseController : MonoBehaviour
     private Vector2 mouseDirection;
     private Vector2 smoothing;
     private Vector2 result;
-    
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     private void Awake()
     {
         character = transform.root;

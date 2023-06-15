@@ -10,6 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     //i am speed
     public float speed = 5.0f;
+    public float DashSpeed = 1000.0f;
 
     // How much will the player slide on the ground
     // Thawde lower the value, the greater distance the user will slide
@@ -22,6 +23,7 @@ public class PlayerControls : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
     }
 
     // Update is called once per frame
@@ -40,6 +42,12 @@ public class PlayerControls : MonoBehaviour
         rb.AddForce(movementDirection * speed, ForceMode.Force);
         // Apply drag
         rb.drag = drag;
+        if (Input.GetKeyDown(KeyCode.E) == true)
+        {
+            Debug.Log("dash");
+            rb.AddForce(movementDirection.normalized * DashSpeed, ForceMode.Impulse);
+            rb.drag = 0;
+        }
         if (Input.GetKeyDown(KeyCode.Escape) == true)
             {
                 Debug.Log("Quit");

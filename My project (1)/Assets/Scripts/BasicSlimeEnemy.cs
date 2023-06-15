@@ -9,11 +9,12 @@ public class BasicSlimeEnemy : MonoBehaviour
     [SerializeField] private bool MoveRigidBody = true;
     [SerializeField] private float RgbRotationSpeed = 5f;
     [SerializeField] private float TriggerRadius = 5f;
-    [SerializeField] private float ChaseSpeed = 5f;
+    [SerializeField] private float ChaseSpeed = 3f;
     [SerializeField] private float ChaseDelay = 1f;
-
+    [SerializeField] private float Jump = 1f;
 
     #region private
+    private bool jumpCooldown = true;
     private Transform localTrans;
     private bool detected = false;
     private Transform TargetTrans;
@@ -38,12 +39,20 @@ public class BasicSlimeEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (jumpCooldown)
+        {
+            Debug.Log("Jump");
+            localRgb.AddForce(Vector2.up * Jump, ForceMode.Impulse);
+            StartCoroutine(StartCooldown());
+        } 
         if (detected && TargetTrans != null)
         {
             localRgb.freezeRotation = true;
 
             Chase(TargetTrans);
         }
+       
+        
     }
 
 
@@ -58,11 +67,19 @@ public class BasicSlimeEnemy : MonoBehaviour
         if (MoveRigidBody)
         {
             RotateRgb(_target);
-            localRgb.MovePosition(localRgb.position + localTrans.up * speed * Time.deltaTime);
-            
+            localRgb.MovePosition(localRgb.position + localTrans.forward * speed * Time.deltaTime);
+            localRgb.MovePosition(localRgb.position + localTrans.forward * speed * Time.deltaTime);
+
         }
     }
+    public IEnumerator StartCooldown()
+    {
+        jumpCooldown = false;
 
+        yield return new WaitForSeconds(2);
+
+        jumpCooldown = true;
+    }
 
     private void RotateRgb(Transform _target)
     {
@@ -75,6 +92,7 @@ public class BasicSlimeEnemy : MonoBehaviour
         localRgb.MoveRotation(localRgb.rotation * deltaRotation);
 
     }
+   
 
     private void OnTriggerEnter(Collider other)
     {
@@ -102,3 +120,4 @@ public class BasicSlimeEnemy : MonoBehaviour
     }
 
 }
+
