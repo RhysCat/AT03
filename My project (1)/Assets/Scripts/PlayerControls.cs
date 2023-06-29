@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -13,15 +14,16 @@ public class PlayerControls : MonoBehaviour
     public float DashSpeed = 1000.0f;
 
     // How much will the player slide on the ground
-    // Thawde lower the value, the greater distance the user will slide
+    // The lower the value, the greater distance the user will slide
     public float drag;
-
     private Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
+        //gets the Rigid Body so it can be used 
         rb = GetComponent<Rigidbody>();
+        //freezes the Rotation when moving the rigid body so it doesnt fall over with gravity 
         rb.freezeRotation = true;
 
     }
@@ -40,18 +42,21 @@ public class PlayerControls : MonoBehaviour
 
         // Move the player
         rb.AddForce(movementDirection * speed, ForceMode.Force);
+        rb.AddForce(movementDirection * speed, ForceMode.Force);
         // Apply drag
         rb.drag = drag;
         if (Input.GetKeyDown(KeyCode.E) == true)
         {
+            //Dash Script 
             Debug.Log("dash");
+            //if press E they do a rigid impluse force to simulate a dash 
             rb.AddForce(movementDirection.normalized * DashSpeed, ForceMode.Impulse);
             rb.drag = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Escape) == true)
-            {
-                Debug.Log("Quit");
-                Application.Quit();
-            }
+        //Restart Game 
+        if (Input.GetKeyDown(KeyCode.R) == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

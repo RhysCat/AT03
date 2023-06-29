@@ -30,7 +30,7 @@ public class MouseController : MonoBehaviour
         smoothing = Vector2.Lerp(smoothing, mouseDirection, 1 / mouseDrag);
         result += smoothing;
 
-        //clamping avoidings gimble lock
+        //clamping camera 
         result.y = Mathf.Clamp(result.y, -60, 70);
 
 

@@ -9,12 +9,12 @@ public class BasicSlimeEnemy : MonoBehaviour
     [SerializeField] private bool MoveRigidBody = true;
     [SerializeField] private float RgbRotationSpeed = 5f;
     [SerializeField] private float TriggerRadius = 5f;
-    [SerializeField] private float ChaseSpeed = 3f;
+    [SerializeField] private float ChaseSpeed = 5f;
     [SerializeField] private float ChaseDelay = 1f;
-    [SerializeField] private float Jump = 1f;
+    [SerializeField] public float Jump = 20f;
+    [SerializeField] private bool jumpCooldown = true;
 
     #region private
-    private bool jumpCooldown = true;
     private Transform localTrans;
     private bool detected = false;
     private Transform TargetTrans;
@@ -23,7 +23,7 @@ public class BasicSlimeEnemy : MonoBehaviour
     #endregion
 
 
-    // Start is called before the first frame update
+    //SAME AS THE "EnemyBasic" BUT WITH A JUMP 
     void Start()
     {
         localRgb = GetComponent<Rigidbody>();
@@ -36,25 +36,45 @@ public class BasicSlimeEnemy : MonoBehaviour
         TargetTrans = null;
     }
 
-    // Update is called once per frame
+    //
     void Update()
     {
+
         if (jumpCooldown)
+
         {
-            Debug.Log("Jump");
+
+            //adds a force for jump
             localRgb.AddForce(Vector2.up * Jump, ForceMode.Impulse);
+            //uses a jump animation
+            GetComponent<Animator>().SetTrigger("SlimeJump");
+            //starting cooldown
             StartCoroutine(StartCooldown());
-        } 
+
+        }
         if (detected && TargetTrans != null)
         {
             localRgb.freezeRotation = true;
 
             Chase(TargetTrans);
         }
-       
-        
     }
+    //cooldown between jumps 
+    public IEnumerator StartCooldown()
 
+    {
+        //turns off jump
+        jumpCooldown = false;
+
+
+        //waits for 2 seconds before doing next line 
+        yield return new WaitForSeconds(2);
+
+
+        //turns on cooldown
+        jumpCooldown = true;
+
+    }
 
     void Chase(Transform _target)
     {
@@ -63,23 +83,14 @@ public class BasicSlimeEnemy : MonoBehaviour
         targetPos = _target.position;
         targetPos.y = localTrans.position.y;
 
-        //Move Rigibody;
+       
         if (MoveRigidBody)
         {
             RotateRgb(_target);
             localRgb.MovePosition(localRgb.position + localTrans.forward * speed * Time.deltaTime);
-            localRgb.MovePosition(localRgb.position + localTrans.forward * speed * Time.deltaTime);
-
         }
     }
-    public IEnumerator StartCooldown()
-    {
-        jumpCooldown = false;
 
-        yield return new WaitForSeconds(2);
-
-        jumpCooldown = true;
-    }
 
     private void RotateRgb(Transform _target)
     {
@@ -92,7 +103,6 @@ public class BasicSlimeEnemy : MonoBehaviour
         localRgb.MoveRotation(localRgb.rotation * deltaRotation);
 
     }
-   
 
     private void OnTriggerEnter(Collider other)
     {
@@ -120,4 +130,3 @@ public class BasicSlimeEnemy : MonoBehaviour
     }
 
 }
-

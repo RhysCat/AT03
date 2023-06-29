@@ -1,0 +1,465 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688072975179618, "dur":1130, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975180752, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688072975180807, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688072975180820, "dur":300, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688072975181144, "dur":492, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975181636, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444126, "dur":122, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444248, "dur":82, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444330, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444333, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444339, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444341, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444348, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444350, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444356, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444358, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444362, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444364, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444369, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444371, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444375, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444377, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444382, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444383, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444388, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444389, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444394, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444396, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444401, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444402, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444407, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444418, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975444437, "dur":1471, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688072975181274, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975181643, "dur":3600, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975185251, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688072975185253, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975185346, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688072975185350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975186503, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688072975188477, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688072975188574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975188984, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688072975189976, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688072975190093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975190101, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688072975191341, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688072975191457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975191464, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1688072975192791, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975192919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975193051, "dur":17474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975210561, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975210618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975210627, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975214110, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975214167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975214174, "dur":14356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975228568, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975228608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975228615, "dur":8661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975237314, "dur":1198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975238515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975238522, "dur":10952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975249510, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975249549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975249555, "dur":12296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975261955, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975262002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688072975262008, "dur":9910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688072975271950, "dur":172180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975181296, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975181650, "dur":3596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975185251, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1688072975185438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975193059, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1688072975194508, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975194555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975194594, "dur":17948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975212596, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975212649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975212657, "dur":17209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975229986, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975230029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975230036, "dur":7966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975238044, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975238082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975238087, "dur":6327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975244454, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975244501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975244508, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975246939, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975247093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975247099, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975250636, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975250687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975250694, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975254086, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975254123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975254128, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975256895, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975256932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975256938, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975258318, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975258405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975258411, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975261794, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975261876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688072975261882, "dur":8273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688072975270199, "dur":173946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975181290, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975181646, "dur":3602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975185251, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688072975185455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975194557, "dur":19455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688072975214053, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975214151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975214157, "dur":13742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975227937, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975227975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975227984, "dur":7679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975236082, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975236537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975236543, "dur":7686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975244276, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975244586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975244592, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975247471, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975247510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975247516, "dur":5103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975252657, "dur":190424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975443086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688072975443096, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688072975444097, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1688072975444098, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975181319, "dur":336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975181655, "dur":3589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975185253, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688072975185424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975192363, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688072975194095, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975194143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975194560, "dur":17967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975212573, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975212620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975212628, "dur":10155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975222822, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975222861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975222868, "dur":9816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975232725, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975232768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975232775, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975236400, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975236434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975236440, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975238645, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975238691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975238717, "dur":7055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975245808, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975245847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975245853, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975249929, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975250057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975250063, "dur":7722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975257823, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975257870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975257876, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975262652, "dur":38255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975300913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688072975300925, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688072975301859, "dur":142285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975181337, "dur":323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975181660, "dur":3587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975185251, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688072975185410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975191020, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1688072975192165, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688072975192267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975192274, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1688072975193812, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight.exe" }}
+,{ "pid":12345, "tid":5, "ts":1688072975193852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975193856, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight.exe" }}
+,{ "pid":12345, "tid":5, "ts":1688072975195296, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975195338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975195344, "dur":19111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975214495, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975214626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975214632, "dur":8988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975223658, "dur":140699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975364362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688072975364372, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688072975365442, "dur":78684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975181356, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975181664, "dur":3592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975185258, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688072975185454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975194487, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1688072975197648, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975197678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975197695, "dur":16932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975214664, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975214708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975214714, "dur":17825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975232586, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975232630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975232637, "dur":15455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975248140, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975248238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975248245, "dur":14649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688072975262932, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1688072975262970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688072975263030, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1688072975269289, "dur":174832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975181375, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975181669, "dur":3575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975185251, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1688072975185383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975187148, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1688072975188514, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1688072975188585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975188826, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1688072975189799, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688072975189938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975190035, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688072975191470, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1688072975191590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975191597, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1688072975192947, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975193036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975193042, "dur":31266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975224348, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975224392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975224399, "dur":10963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975235400, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975235470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975235475, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975237885, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975237922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975237928, "dur":8064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975246031, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975246075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975246081, "dur":10639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975256766, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975256802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975256808, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975259341, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975259413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975259419, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688072975263177, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975263219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975263224, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975265955, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975265988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975265993, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975267617, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975267661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688072975267666, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688072975268865, "dur":175258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975181442, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975181673, "dur":3592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975185267, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1688072975185432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975192630, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1688072975193857, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1688072975193969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975194544, "dur":13478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1688072975208050, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975208082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975208088, "dur":7908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975216040, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975216087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975216095, "dur":16482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975232615, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975232651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975232657, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975236269, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975236313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975236446, "dur":7731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975244222, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975244292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975244300, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975247453, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975247488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975247494, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975251719, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975251774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975251799, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975255000, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975255043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975255049, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975256787, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975256827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975256833, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975259901, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975260003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975260010, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688072975263110, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688072975263175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975263180, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688072975265751, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688072975265789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975265794, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1688072975266900, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1688072975266948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975266953, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1688072975268621, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1688072975268783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688072975268792, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1688072975269656, "dur":174468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975181468, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975181678, "dur":3596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975185275, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1688072975185423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975191928, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1688072975193333, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1688072975193446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975193452, "dur":8053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1688072975201552, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975201623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975201632, "dur":17098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975218773, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975218819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975218827, "dur":17553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975236411, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975236486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975236492, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975239352, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975239387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975239394, "dur":6442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975245877, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975246021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975246028, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975249093, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975249134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975249140, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975251835, "dur":70492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975322332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688072975322341, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688072975323273, "dur":120870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975181497, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975181680, "dur":3572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975185255, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1688072975185419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975191371, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1688072975192762, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975192865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975193040, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975197110, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975197138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975197142, "dur":17510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975214695, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975214740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975214746, "dur":8444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975223228, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975223270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975223277, "dur":11824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975235144, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975235188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975235194, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975237659, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975237705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975237710, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975245571, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975245617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975245624, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975247941, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975247980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975247986, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975251723, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975251762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975251768, "dur":4188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975255992, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975256052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975256058, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975257872, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975257911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975257917, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975260288, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975260378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975260384, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688072975263604, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1688072975264579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688072975264587, "dur":5381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1688072975270000, "dur":174129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975181517, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975181684, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975185262, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1688072975185448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975193611, "dur":18993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1688072975212643, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975212689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975212695, "dur":8152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975220885, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975220923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975220931, "dur":11488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975232460, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975232538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975232546, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975236061, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975236121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975236128, "dur":7357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975243529, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975243578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975243591, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975246826, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975247180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975247186, "dur":8344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975255560, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975255600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975255606, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975257023, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975257061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975257067, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975258725, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975258823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975258829, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975262397, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975262475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688072975262481, "dur":8916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688072975271435, "dur":172705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975181554, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975181687, "dur":3582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975185271, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1688072975185457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975194912, "dur":19054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1688072975214007, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975214044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975214050, "dur":8708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975227049, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975227102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975227109, "dur":7745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975234908, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975235011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975235017, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975237428, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975237471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975237477, "dur":9306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975247105, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975247181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975247189, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975250289, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975250336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975250343, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975253838, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975253882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975253888, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975256317, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975256364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975256370, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975258325, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975258365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975258371, "dur":4884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688072975263296, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1688072975263456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975263461, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1688072975266678, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1688072975266714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975266719, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1688072975268533, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1688072975268579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688072975268584, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Rhysc/OneDrive/Desktop/PPF/Builds/Gold-Master/Push Fight_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1688072975269499, "dur":174623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688072975447187, "dur":1546, "ph":"X", "name": "ProfilerWriteOutput" }
+,

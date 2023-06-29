@@ -12,6 +12,7 @@ public class BasicPush : MonoBehaviour
     }
     void Update()
     {
+        //excution of Attck of push 
         if (Input.GetKeyDown(KeyCode.Mouse0) == true)
         {
             GetComponent<Animator>().SetTrigger("BPush");

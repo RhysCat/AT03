@@ -40,13 +40,14 @@ public class EnemyBasic : MonoBehaviour
     {
         if (detected && TargetTrans != null)
         {
+            //freezes the rotation of the object so it doesnt fall over 
             localRgb.freezeRotation = true;
 
             Chase(TargetTrans);
         }
     }
 
-
+    //Chase
     void Chase(Transform _target)
     {
         var speed = ChaseSpeed;
@@ -62,7 +63,7 @@ public class EnemyBasic : MonoBehaviour
         }
     }
 
-
+    //Rotate the object towards the player 
     private void RotateRgb(Transform _target)
     {
         Vector3 localTarget = localTrans.InverseTransformPoint(_target.position);
@@ -74,7 +75,7 @@ public class EnemyBasic : MonoBehaviour
         localRgb.MoveRotation(localRgb.rotation * deltaRotation);
 
     }
-
+    //the detection sphere for finding the player (tbh dont need it could've removed)
     private void OnTriggerEnter(Collider other)
     {
         if (detected) return;
@@ -87,13 +88,12 @@ public class EnemyBasic : MonoBehaviour
             StartCoroutine(ActivateChasing(other.transform, ChaseDelay));
         }
     }
-
+    //the delay between detecting and chasing 
     IEnumerator ActivateChasing(Transform other, float _waitSec = 1f)
     {
         yield return new WaitForSeconds(_waitSec);
         TargetTrans = other;
     }
-
 
     public void StopChasing()
     {
